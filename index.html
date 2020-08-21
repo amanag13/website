@@ -32,6 +32,20 @@
                 ("ontouchstart"in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch")
             }(window, document);
         </script>
+        <script src="https://min30327.github.io/luxy.js/dist/js/luxy.js"></script>
+        <script charset="utf-8">
+            var isMobile = /iPhone|iPad|Android/i.test(navigator.userAgent);
+            if (!isMobile) {
+                luxy.init({
+                    wrapper: '#luxy',
+                    wrapperSpeed: 0.065,
+
+                });
+            }
+        </script>
+        <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js?site=5f00ea54549ac2ec20f1294f" type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="https://uploads-ssl.webflow.com/5f00ea54549ac2ec20f1294f/js/webflow.ad1a9cb84.js" type="text/javascript"></script>
+        <!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
         <link href="./wimage/icons/fav.png" rel="shortcut icon" type="image/x-icon"/>
         <link href="https://uploads-ssl.webflow.com/5f00ea54549ac2ec20f1294f/5f00ea54de9ffe8c49ddf728_Webclip.jpg" rel="apple-touch-icon"/>
     </head>
@@ -249,20 +263,7 @@
                 </div>
             </div>
         </div>
-        <script src="https://min30327.github.io/luxy.js/dist/js/luxy.js"></script>
-        <script charset="utf-8">
-            var isMobile = /iPhone|iPad|Android/i.test(navigator.userAgent);
-            if (!isMobile) {
-                luxy.init({
-                    wrapper: '#luxy',
-                    wrapperSpeed: 0.065,
-
-                });
-            }
-        </script>
-        <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js?site=5f00ea54549ac2ec20f1294f" type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-        <script src="https://uploads-ssl.webflow.com/5f00ea54549ac2ec20f1294f/js/webflow.ad1a9cb84.js" type="text/javascript"></script>
-        <!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
+        
     </div>
     </body>
 </html>
